@@ -13,7 +13,7 @@ Webscrapper is simple web scrapeer that fetch the given URL's HTML page and take
 ## Installation
 
 ```bash
-git clone https://github.com/aKeles001/Webscrapper
+git clone https://github.com/aKeles001/Webscrapper.git
 ```
 
 ## Usage
@@ -21,4 +21,5 @@ git clone https://github.com/aKeles001/Webscrapper
 ```bash
 go run .\Webscrapper.go -url https://www.example.com -out HTML-Filename -outdir HTML-directory -screenshot screenshot.name -screenshotdir screenshor.directory -urlfile extracted.url.filename -urldir extracted.url.directory
 ```
+
 
