@@ -23,7 +23,7 @@ go run .\Webscrapper.go -h
 ```
 
 ## Arguments
-'''bash
+```bash
 -url             -> Target URL
 -out             -> HTML output filename (Default hostname.html)
 -outdir          -> HTML output directory (Default Outputs/HTML)
@@ -32,7 +32,8 @@ go run .\Webscrapper.go -h
 -urldir          -> Extracted url output directory (Default Outputs/URLs)
 -urlfile         -> Extracted url file name (Default hostname_urls.txt)
 -h               ->Usage
-'''
+```
+
 
 
 
