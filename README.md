@@ -2,7 +2,7 @@
 
 ## Overview
 
-Webscrapper is simple web scrapeer that fetch the given URL's HTML page and take a screenshot of the page. Fethed data is saved to Output directory but output directory can be changed with proper commandline variable.
+Webscrapper is simple web scrapeer that fetch the given URL's HTML page and take a screenshot of the page. Fethed data is saved to Output directory but output directory can be changed with proper commandline arguments.
 
 ## Features
 
@@ -33,6 +33,7 @@ go run .\Webscrapper.go -h
 -urlfile         -> Extracted url file name (Default hostname_urls.txt)
 -h               ->Usage
 ```
+
 
 
 
