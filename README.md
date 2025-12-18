@@ -8,7 +8,7 @@ Webscrapper is simple web scrapeer that fetch the given URL's HTML page and take
 
 - Fetched the HTML source of the given URL
 - Save the screenshot of the web page
-- Save the existing URL's in the HTML source
+- Save the extracted URL's from the HTML source
 
 ## Installation
 
@@ -33,6 +33,7 @@ go run .\Webscrapper.go -h
 -urlfile         -> Extracted url file name (Default hostname_urls.txt)
 -h               ->Usage
 ```
+
 
 
 
