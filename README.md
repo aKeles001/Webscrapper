@@ -1,8 +1,8 @@
-# Webscrapper
+# Webscraper
 
 ## Overview
 
-Webscrapper is simple web scrapeer that fetch the given URL's HTML page and take a screenshot of the page. Fethed data is saved to Output directory but output directory can be changed with proper commandline arguments.
+Webscraper is simple web scrapeer that fetch the given URL's HTML page and take a screenshot of the page. Fethed data is saved to Output directory but output directory can be changed with proper commandline arguments.
 
 ## Features
 
@@ -13,16 +13,17 @@ Webscrapper is simple web scrapeer that fetch the given URL's HTML page and take
 ## Installation
 
 ```bash
-git clone https://github.com/aKeles001/Webscrapper.git
+git clone https://github.com/aKeles001/Webscraper.git
 ```
 
 ## Usage
 
 ```bash
-go run .\Webscrapper.go -h
+go run .\Webscraper.go -h
 ```
 
 ## Arguments
+
 ```bash
 -url             -> Target URL
 -out             -> HTML output filename (Default hostname.html)
@@ -33,9 +34,3 @@ go run .\Webscrapper.go -h
 -urlfile         -> Extracted url file name (Default hostname_urls.txt)
 -h               ->Usage
 ```
-
-
-
-
-
-
